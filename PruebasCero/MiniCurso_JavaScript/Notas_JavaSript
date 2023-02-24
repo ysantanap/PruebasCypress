@@ -6,3 +6,19 @@ let           //para declarar una variable. Ex:
  let obj= {nome:"Yudisel", ape:"Santana"}  //crear un array
  --obj.nome     //para mostrar las informacion de esa variable dentro del arrays.
  instalar plugin Live Server.
+ páginas .htlm
+ let para crear varibles
+ prompt para asignar un valor a una variable que va a entrar el usuario, recibe un string.
+ parseInt para convertir un string en un entero.
+ alert para mostrar.
+ fuction para declarar metodos
+ let exemplo["Naranja", "Mango"] -- exemplo[0] declarar de arrays --arrays.lengtn para el tamanno
+ push para agrega un elemento al array
+ pop para eliminar el ultimo elemento del array
+ unshift para agregar en la primera posicion --exemplo.unshift('pera')
+ shift paara elemina el primero --exemplo.unshift()
+ indexOf para buscar un elemento --exemplo.indexOf('Mango')
+ splice('Naranja',0) para eliminar un elemento en una posicion
+ slice para copiar el array en otro arrays -- ex=exemplo.slice()
+ condicionales if {} else{}, if (){} else{} if(), for(){}, for in, 
+ forEach --exemplo.forEach(fuction(elemento,indice,array))

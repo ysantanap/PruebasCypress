@@ -1,0 +1,8 @@
+"Mini curso JavaScript"
+let           //para declarar una variable. Ex:
+ -- let nombre = "Yudisel"
+ -- console.log("mi nombre es: " + nombre) 
+ typeof     //para saber el tipo de dato de una variable.
+ let obj= {nome:"Yudisel", ape:"Santana"}  //crear un array
+ --obj.nome     //para mostrar las informacion de esa variable dentro del arrays.
+ instalar plugin Live Server.

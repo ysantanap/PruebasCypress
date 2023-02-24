@@ -1,4 +1,0 @@
-Tener node.js instalado. Comprobar con cmd: node --version
-Crear carpeta donde se documentaran las pruebas.
-npm init                               //para crear el proyecto, el package.json
-npm install --save-dev cypress         //instalando cypress

@@ -1,0 +1,17 @@
+Tener node.js instalado. Comprobar con cmd: node --version
+Crear carpeta donde se documentaran las pruebas.
+npm init                               //para crear el proyecto, el package.json
+npm install --save-dev cypress         //instalando cypress.
+  --revisar las conexion a intenert. Revisar los antivirus.
+  --probar instalar npx. (npm install -g npx)
+  --probar npm install cypress --force
+node_modules\.bin\cypress open
+npx cypress open 
+dentro de la carpeta cypress creamos las carpetas y los archivos donde vamos a crear las pruebas.
+los archivos deben de ser .js
+para parar la consola con ctrl+c
+En el framework se pueden delcarar cada prueba (spec) directamente. 
+Te crea la carpeta e2e, donde se guardan las que creas en framework o las q puedes crear directas en el IDE.
+Los archivos que se crean directamente por el IDE en la carpeta e2e debe seguir el siguiente formato:
+  -- nombre.cy.js  // porque un archivo solo js, no sera mostrado entonces en la UI de Cypress.
+  

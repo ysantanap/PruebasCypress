@@ -14,5 +14,21 @@ describe('Opciones Click', () => {
       cy.get('#password').type('admin123')
       cy.get('#submit').click
     })
+
+    it.only('Click Force True', () => {
+      cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+      cy.get('eq','OrangeHRM')
+      cy.get('#username').type('Admin')
+      cy.get('#password').type('admin123')
+      cy.get('#submit').should("be.visible").click({force: true})
+    })
+
+    it('Click X_Y', () => {
+      cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+      cy.get('eq','OrangeHRM')
+      cy.get('#username').type('Admin')
+      cy.get('#password').type('admin123')
+      cy.get('#submit').click(50,5)
+    })
   
   })

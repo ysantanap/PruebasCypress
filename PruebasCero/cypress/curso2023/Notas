@@ -14,4 +14,4 @@ En el framework se pueden delcarar cada prueba (spec) directamente.
 Te crea la carpeta e2e, donde se guardan las que creas en framework o las q puedes crear directas en el IDE.
 Los archivos que se crean directamente por el IDE en la carpeta e2e debe seguir el siguiente formato:
   -- nombre.cy.js  // porque un archivo solo js, no sera mostrado entonces en la UI de Cypress.
-  
+instalar plugin de cypress para el tab. revisar la funcion TAB  (VER VIDEO)

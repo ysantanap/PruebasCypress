@@ -9,4 +9,9 @@ describe('template spec', () => {
     cy.log('hola mundo')
   })
 
+        //Siempre para que no de Error_Reto1
+        Cypress.on('uncaught:exception', (err, runnable) => {
+          return false;
+         }); 
+
 })

@@ -1,0 +1,3 @@
+Test de integracion...
+-e2e porque no es solo visitar el frontend, sino que el usuario va a interectuar con cualquier parte del backend
+ y el frontend se actualiza con una respuesta.

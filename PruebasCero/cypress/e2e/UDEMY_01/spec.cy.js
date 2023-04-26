@@ -1,4 +1,5 @@
 ///<reference types="Cypress"/>
+import 'cypress-file-upload'
 
 describe('template spec', () => {
   it('passes', () => {

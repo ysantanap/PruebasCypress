@@ -21,4 +21,8 @@ instalar plugin de cypress para el tab. revisar la funcion TAB  (VER VIDEO)
           return false;
          }); 
 cy.get(selector).eq(0).clik();    //eq(valor#) para seleccionar el elemento de una lista. los valores # se trabajan como indices de los arrays.
-npx cypress run //ejecuto las pruebas a nivel de consola
+npx cypress run           //ejecuto las pruebas a nivel de consola
+npx cypress run --headed  //ejecuto las pruebas desde consola pero q se visalicen en el navegador.
+npx cypress run --spec 'cypress\e2e\UDEMY_01\sec13MasAssert.cy.js'      //ejecuto las pruebas a nivel de consola especificando el spec deseado
+npx cypress run --spec 'cypress\e2e\UDEMY_01\""'      //ejecuto las pruebas a nivel de consola especificando el los spec dentro de una carpeta y q se ejecuten todos.
+npm install --save-dev cypress-file-upload    //para instalar plugin para seleccionar(subir) archivo en un test
